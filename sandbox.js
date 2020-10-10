@@ -42,12 +42,13 @@ window.onload = function(){
             mainContainer.prepend(p);
             setTimeout(function(){
                 mainContainer.removeChild(p);
-            }, 4000);
+            }, 2000);
         }
     });
 
     ul.addEventListener("click", function(e){
 
+        // Prevent event bubbling
         e.stopPropagation();
 
         if(e.target.classList.contains("delete")){
