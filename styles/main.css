@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 40%;
+    width: 50%;
     padding: 2%;
  }
 
@@ -31,7 +31,6 @@ input[type="text"]{
 
 input[type="submit"]{
     display: inline-block;
-    margin: 0;
     font-family: "David Libre", Helvetica, Arial, sans-serif;
     background-color: #ccc;
     padding: 2%;
