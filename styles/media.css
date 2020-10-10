@@ -1,0 +1,36 @@
+@media screen and (max-width: 900px){
+    .container{width: 60%;}
+}
+
+@media screen and (max-width: 700px){
+    .container{width: 70%;}
+    input[type="text"]{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    input[type="text"]{
+        width: 55%;
+    }
+    input[type="submit"]{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container{width: 95%;}
+    input[type="text"]{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .container{width: 95%;}
+    input[type="text"]{
+        width: 60%;
+    }
+    input[type="submit"]{
+        width: 30%;
+    }
+}
